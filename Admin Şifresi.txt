@@ -1,0 +1,3 @@
+Admin sayfası adresi : /yonetici
+Super User Kullanıcı Adı: yonetici
+Super User Şifresi: icitenoy
