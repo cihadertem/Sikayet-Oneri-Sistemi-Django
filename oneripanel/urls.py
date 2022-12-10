@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from mesaj.views import ana_view
 
 urlpatterns = [
     path('yonetici/', admin.site.urls),
+    path('', ana_view, name='home'),
 ]
